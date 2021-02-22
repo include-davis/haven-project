@@ -1,0 +1,380 @@
+
+html {
+    height: 1763px;
+    width: 1440px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav {
+    position: relative;
+    width: 100%;
+    height: 15%;
+    left: 0%;
+    top: 0%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    text-align: center;
+    
+    color: #000000;
+
+  }
+
+  ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 5%;
+    overflow: hidden;
+  }
+
+  ul.topnav li.logo {
+      float:left;
+      padding: 10px;
+    }
+  
+  ul.topnav li {float: left;}
+
+  ul.topnav li a.active {
+    background-color: #FFD36E;
+    /*background-clip: padding-box;*/
+}
+  
+  ul.topnav li a {
+    display: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+
+  .topnav .icon {
+      display: none;
+  }
+
+  @media screen and (max-width: 1000px) {
+    ul.topnav li a{display: none;}
+    .topnav #rectangle94 {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+      color:#FFD36E;
+      width: 10%;
+
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top:0;
+    }
+    .topnav a {
+      float: none;
+      display: none;
+      text-align: left;
+    }
+  
+  }
+
+
+#rectangle12 {
+
+    position: absolute;
+    width: 449px;
+    height: 95px;
+    left: 0px;
+    top: 277px;
+
+    background: #FFD36E;
+}
+
+.LDSP {
+    /* LEADERSHIP */
+    position: absolute;
+    width: 229px;
+    height: 33px;
+    left: 110px;
+    top: 277px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+    /* Change the color of links on hover */
+  
+  /* Add a color to the active/current link */
+
+#rectangle70 {
+    position: absolute;
+    width: 579px;
+    height: 176px;
+    left: 427px;
+    top: 512px;
+    
+    background: #A4D3FF;
+    border-radius: 10px;
+}
+
+#DavisLeadership{
+    /* Davis Leadership */
+    position: absolute;
+    width: 308px;
+    height: 32px;
+    left: 563px;
+    top: 475px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 75px;
+    text-align: center;
+    
+    color: #000000;
+
+}
+
+#rectangle90 {
+
+    position: absolute;
+    width: 1085px;
+    height: 604px;
+    left: 177px;
+    top: 634px;
+    
+    background: #FFFFFF;
+    border: 5px solid #A4D3FF;
+    border-radius: 10px;
+}
+
+
+#HavenAtUCD{
+
+    position: absolute;
+    width: 964px;
+    height: 472px;
+    left: 235px;
+    top: 719px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+
+}
+
+
+.view{
+    position: absolute;
+    width: 374px;
+    height: 83px;
+    left: 530px;
+    top: 1193px;
+}
+
+.view #rectangle92 {
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #FFD36E;
+    border-radius: 20px;
+}
+
+.view .viewmore{
+    /* Davis Leadership */
+    position: absolute;
+    left: 8.86%;
+    right: 8.86%;
+    top: 34.62%;
+    bottom: 34.62%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    background: none;
+    border: none;
+}
+
+@media only screen and (min-width:400px) and (max-width: 900px) {
+    html{
+        width: auto;
+        height: auto;
+    }
+
+    ul.topnav {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 91.63%;
+        padding: auto;
+        background: #FFFFFF;
+    }
+
+    ul.topnav li.logo {
+        position: absolute;
+        padding: 0;
+    }
+
+    #rectangle12 {
+        position: absolute;
+        left: 0%;
+        right: 57.07%;
+        top: 9.11%;
+        bottom: 86.82%;
+        height: auto;
+        width: auto;
+
+        background: #FFD36E;
+    }
+
+    .LDSP {
+
+        position: absolute;
+        left: 5%;
+        right: 57.07%;
+        top: 7.11%;
+        bottom: 86.82%;
+
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+    }
+
+    #rectangle70 {
+        position: absolute;
+        left: 29.07%;
+        right: 27.47%;
+        top: 18.35%;
+        bottom: 73.28%;
+        width: auto;
+        height: auto;
+
+        background: #A4D3FF;
+        border-radius: 10px;
+    }
+
+    #DavisLeadership {
+        position: absolute;
+        left: 28.53%;
+        right: 28.8%;
+        top: 16%;
+        bottom: 79.19%;
+
+        width: auto;
+        height: auto;
+
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+
+        color: #000000;
+    }
+
+    #rectangle90 {
+        position: absolute;
+        left: 8.8%;
+        right: 7.2%;
+        top: 23.52%;
+        bottom: 23.65%;
+        width: auto;
+        height: auto;
+        background: #FFFFFF;
+        border: 5px solid #A4D3FF;
+    }
+
+    #HavenAtUCD{
+
+        position: absolute;
+        left: 12.27%;
+        right: 12.53%;
+        top: 31.53%;
+        bottom: 32.88%;
+        width: auto;
+        height: auto;
+    
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        text-align: center; 
+
+    }
+
+
+    .view {
+
+        position: absolute;
+        left: 33.07%;
+        top: 73%;
+        width: 130px;
+        height: 65px;
+    }
+
+    .view .viewmore{
+
+        position: absolute;
+        left: 8.86%;
+        right: 8.86%;
+        top: 34.62%;
+        bottom: 34.62%;
+
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+    }
+
+
+
+
+}
