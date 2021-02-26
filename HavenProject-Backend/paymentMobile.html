@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>payment form</title>
+    <link href="backendMobile.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class = "merch">
+      <div class = "payment_form"></div>
+
+      <div class = "rectangleFrame">
+        <div class = "rectangle"></div>
+        <p class = "cartLabel">CART</p>
+      </div>
+
+      <div class = "venmo_icon">
+        <a href = "https://venmo.com/"><img src = "download 1.png" alt = "venmo"></a>
+      </div>
+
+      <div class = "paypal_icon">
+        <a href = "https://www.paypal.com/us/home"><img src = "download (1) 1.png" alt = "paypal"></a>
+      </div>
+
+      <h3 class="payment-form-header">Your Information</h3>
+        
+      <form method="post" action="payment-form-process.php">
+
+        <label for="fname" class="label-name">Name*</label> 
+        <input type="text" id="fname" name="fname" class="fname-box" placeholder="First Name" required>
+        <input type="text" id="lname" name="lname" class="lname-box" placeholder="Last Name" required>
+
+        <label for="Email" class="label-email">Email*</label>
+        <input type="email" id="Email" name="Email" class="email-box" required>
+
+        <label for="Phone" class="label-phone">Phone</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" class="phone-box">
+
+        <div class = "submit-box">
+          <button type="submit" class="submit-form">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
