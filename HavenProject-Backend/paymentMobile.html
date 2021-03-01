@@ -17,29 +17,32 @@
       </div>
 
       <div class = "venmo_icon">
-        <a href = "https://venmo.com/"><img src = "download 1.png" alt = "venmo"></a>
+        <a href = "https://venmo.com/"><img src = "venmo_mobile.png" alt = "venmo"></a>
       </div>
 
       <div class = "paypal_icon">
-        <a href = "https://www.paypal.com/us/home"><img src = "download (1) 1.png" alt = "paypal"></a>
+        <a href = "https://www.paypal.com/us/home"><img src = "paypal_web.png" alt = "paypal"></a>
       </div>
 
       <h3 class="payment-form-header">Your Information</h3>
+
+      <p class = "total">TOTAL: $0.00</p>
+      <p class = "pay">Please Pay $0.00 to </p>
         
       <form method="post" action="payment-form-process.php">
 
-        <label for="fname" class="label-name">Name*</label> 
+        <label for="fname" class="label-name fontLabel">Name<span style="color:red">*</span></label></label> 
         <input type="text" id="fname" name="fname" class="fname-box" placeholder="First Name" required>
         <input type="text" id="lname" name="lname" class="lname-box" placeholder="Last Name" required>
 
-        <label for="Email" class="label-email">Email*</label>
+        <label for="Email" class="label-email">Email<span style="color:red">*</span></label></label>
         <input type="email" id="Email" name="Email" class="email-box" required>
 
         <label for="Phone" class="label-phone">Phone</label>
         <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" class="phone-box">
 
         <div class = "submit-box">
-          <button type="submit" class="submit-form">Submit</button>
+          <button type="submit" class="submit-form submit-button" value="Submit">Submit</button>
         </div>
       </form>
     </div>

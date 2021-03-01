@@ -30,9 +30,9 @@ div{
   
 .cartLabel{
   position: absolute;
-  left: 4.35%;
+  left: 37.60%;
   right: 4.35%;
-  top: 30.3%;
+  top: 13.3%;
   bottom: 27.27%;
   
   font-family: Open Sans;
@@ -194,35 +194,19 @@ input{
   width: 69px;
   height: 27px;
   left: 81px;
-  top: 705px;
+  top: 705px;  
 }
-  
-button{
+
+.submit-form{
   position: absolute;
   left: 0%;
   right: 0%;
   top: 0%;
   bottom: 0%;
-  
+
   background: #FFD36E;
   border-radius: 20px;
-}
-  
-.submit-form{
-  position: absolute;
-  left: 9.04%;
-  right: 6.78%;
-  top: 34.55%;
-  bottom: 34.55%;
-  
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 15px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  border: none;
 }
   
 .venmo_icon{
@@ -230,14 +214,46 @@ button{
   width: 30px;
   height: 28px;
   left: 220px;
-  top: 742px;  
+  top: 742px;
 }
-  
+ 
 .paypal_icon{
-    position: absolute;
-    width: 68.33px;
-    height: 54.66px;
-    left: 1146.41px;
-    top: 982px;
-    border-radius: 5px;
+  position: absolute;
+  width: 30px;
+  height: 28px;
+  left: 300px;
+  top: 742px;
+  border-radius: 5px;
+}
+
+.total{
+  position: absolute;
+  width: 172px;
+  height: 20px;
+  left: 81px;
+  top: 660px;
+  
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  
+  color: #000000;
+}
+
+.pay{
+  position: absolute;
+  width: 157px;
+  height: 21px;
+  left: 81px;
+  top: 735px;
+  
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  
+  color: #000000;
 }

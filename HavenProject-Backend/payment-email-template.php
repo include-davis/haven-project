@@ -10,6 +10,7 @@
   <div style="max-width: 600px; min-width: 200px; background-color:white; padding: 20px; margin: auto; 
     font-family: 'Open Sans'; font-style: normal;">
     <div ALIGN = CENTER>
+      <img src="https://i.ibb.co/rfBvG4R/Haven-Project-Logo.png" width=200 height=60>
       <h1>Thank you for your recent purchase!</h1>
       <p>Please complete your payment through PayPal or Venmo</p>
     </div>
