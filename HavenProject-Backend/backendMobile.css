@@ -60,7 +60,7 @@ div{
   border-radius: 20px;
 }
   
-label{
+.fontLabel{
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
@@ -72,7 +72,7 @@ label{
   color: #000000;
 }
   
-input{
+.inputBackground{
   background: #E2E2E2;
   border: 1px solid #000000;
   box-sizing: border-box;
@@ -83,8 +83,8 @@ input{
   position: absolute;
   width: 152.69px;
   height: 21px;
-  left: 141.02px;
-  top: 541px;    
+  left: 150.02px;
+  top: 548px;    
 }
   
 .fname-box::placeholder{
@@ -99,8 +99,8 @@ input{
   position: absolute;
   width: 152.69px;
   height: 21px;
-  left: 141.02px;
-  top: 567px;
+  left: 150.02px;
+  top: 574px;
 }
   
 ::placeholder{
@@ -127,40 +127,40 @@ input{
   position: absolute;
   width: 51px;
   height: 21px;
-  left: 81px;
-  top: 541px;
+  left: 90px;
+  top: 548px;
 }
   
 .label-email{
   position: absolute;
   width: 44px;
   height: 21px;
-  left: 81px;
-  top: 601px;  
+  left: 90px;
+  top: 610px;  
 }
   
 .email-box{
   position: absolute;
   width: 153px;
   height: 21px;
-  left: 141px;
-  top: 601px;  
+  left: 150px;
+  top: 608px;  
 }
   
 .label-phone{
   position: absolute;
   width: 44px;
   height: 21px;
-  left: 81px;
-  top: 635px;
+  left: 90px;
+  top: 640px;
 }
   
 .phone-box{
   position: absolute;
   width: 107px;
   height: 21px;
-  left: 141px;
-  top: 635px;  
+  left: 150px;
+  top: 641px;  
 }
   
 .phone-box::placeholder{
@@ -191,10 +191,10 @@ input{
   
 .submit-box{
   position: absolute;
-  width: 69px;
+  width: 75px;
   height: 27px;
-  left: 81px;
-  top: 705px;  
+  left: 90px;
+  top: 710px;  
 }
 
 .submit-form{
@@ -213,16 +213,24 @@ input{
   position: absolute;
   width: 30px;
   height: 28px;
-  left: 220px;
-  top: 742px;
+  left: 215px;
+  top: 738px;
 }
  
 .paypal_icon{
   position: absolute;
   width: 30px;
   height: 28px;
-  left: 300px;
-  top: 742px;
+  left: -145px;
+  top: 331px;
+}
+
+.mask_group{
+  position: absolute;
+  width: 27.39px;
+  height: 21.92px;
+  left: 407.4px;
+  top: 407.41px;
   border-radius: 5px;
 }
 
@@ -230,8 +238,8 @@ input{
   position: absolute;
   width: 172px;
   height: 20px;
-  left: 81px;
-  top: 660px;
+  left: 90px;
+  top: 665px;
   
   font-family: Open Sans;
   font-style: normal;
@@ -246,8 +254,8 @@ input{
   position: absolute;
   width: 157px;
   height: 21px;
-  left: 81px;
-  top: 735px;
+  left: 90px;
+  top: 737px;
   
   font-family: Open Sans;
   font-style: normal;
