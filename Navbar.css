@@ -6,13 +6,12 @@ body {
 
 #navbar {
     background-color: #ffffff;
-    font-size: 30px;
+    font-size: 0.5rem;
 
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    text-align: ;
 }
 
 
