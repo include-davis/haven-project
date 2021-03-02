@@ -268,6 +268,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 3%;
 }
 
 
@@ -335,27 +336,39 @@ body {
 }
 
   /* contact us page */
-  .form-header p{
-    text-align: center;
-    font-size: 1.5rem;
-  }
   
   .contact-container {
     color: #000000;
     font-family: Open Sans;
   }
+
+  .form-header p{
+    text-align: center;
+    font-size: 1.5rem;
+  }
   
+  .rectangle{
+    position: absolute;
+    left: 0;
+    width: 40%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: #FFD36E;
+    border: 1px solid #FFD36E;
+    font-size: 1.5rem;
+    font-family: Open Sans;
+    text-align: center;
+  }
+
   #fcf-form {
     display:block;
   }
   
   .fcf-body {
-    /* font-size: 1rem; */
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
-    padding: 10%;
-    padding-bottom: 5%;
+    padding: 5% 17%;
     border-radius: 10px;
     max-width: 100%;
   }
@@ -488,29 +501,12 @@ body {
   }
 
   #NDHSBranchButton{
-    /* position: relative;
-    left: 5%;
-    top: 10%; */
-    /* width: 110px;
-    height: 40px; */
     background: #C69FE3;
     border-radius: 10px;
     border: 1px solid #C69FE3;
     font-family: Open Sans;
     font-size: 1.5rem;
     padding: 2%;
-  }
-
-  .rectangle{
-    position: absolute;
-    left: 0;
-    width: 40%;
-    padding: 1% 5%;
-    background: #FFD36E;
-    border: 1px solid #FFD36E;
-    font-size: 1.5rem;
-    font-family: Open Sans;
-    text-align: center;
   }
   
   .wrapper {
@@ -564,7 +560,7 @@ body {
     }
 
     .contact-button {
-      flex-basis: 60%;
+      flex-basis: 50%;
     }
 
     .blue-btn {
