@@ -10,13 +10,83 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./currentevents_donate_styles.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">
+      <img src="assets/logo.png" alt="icon" width="200">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+
+      <ul class="navbar-nav">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            About Us
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="/aboutus.html">Founders and Leaders</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Leadership
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="/davisleadership.html">Davis</a>
+            <a class="dropdown-item" href="/ndhsleadership.html">NDHS</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="/pastevents.html">Past</a>
+            <a class="dropdown-item" href="/currentevents.html">Current</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Media
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="/pictures.html">Pictures</a>
+            <a class="dropdown-item" href="/videos.html">Videos</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/merch.html">Merch </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/donate.html">Donate </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact.html">Contact Us</a>
+        </li>
+        <li class="nav-item" href="/cart.html">
+          <img src="assets/shoppingcart.png" alt="icon" width="50" height="50">
+        </li>
+
+      </ul>
+    </div>
+  </nav>
   <div class="header">
     <h2>DONATE</h2>
   </div>
-  <div class="container">
+  <div class="my-container">
     <div class="item-title blue-box">
       <h2>Davis Branch</h2>
     </div>
@@ -25,7 +95,7 @@
         <img class="donate-img" src="assets/venmo.png" alt="Venmo logo">
         <div class="donate-column">
           <h2>@havenprojectvenmo</h2>
-          <a href="#">
+          <a class="donate-link" href="#">
             <div class="donate-button">
               <h2>Donate now</h2>
             </div>
@@ -36,7 +106,7 @@
         <img class="donate-img" src="assets/paypal.png" alt="PayPal logo">
         <div class="donate-column">
           <h2>@havenprojectpaypal</h2>
-          <a href="#">
+          <a class="donate-link" href="#">
             <div class="donate-button">
               <h2>Donate now</h2>
             </div>
@@ -52,7 +122,7 @@
         <img class="donate-img" src="assets/venmo.png" alt="Venmo logo">
         <div class="donate-column">
           <h2>@havenprojectvenmo</h2>
-          <a href="#">
+          <a class="donate-link" href="#">
             <div class="donate-button">
               <h2>Donate now</h2>
             </div>
@@ -63,7 +133,7 @@
         <img class="donate-img" src="assets/paypal.png" alt="PayPal logo">
         <div class="donate-column">
           <h2>@havenprojectpaypal</h2>
-          <a href="#">
+          <a class="donate-link" href="#">
             <div class="donate-button">
               <h2>Donate now</h2>
             </div>
@@ -71,6 +141,17 @@
         </div>
       </div>
     </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
