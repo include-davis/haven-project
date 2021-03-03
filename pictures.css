@@ -5,7 +5,6 @@
 
 body {
     font-family: "Open Sans";
-    margin: auto;
     scroll-behavior: smooth;
 }
 .navbar-brand {
@@ -97,7 +96,7 @@ h2 {
     width: 29.9em;
 }
 
-img {
+.carousel-inner>img {
 
     max-height: 23em;
 }
@@ -112,7 +111,7 @@ p {
         width: 46em;
     }
 
-    img {
+    .carousel-inner>img {
         height: 26em; 
     }
 }
