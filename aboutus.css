@@ -1,6 +1,28 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans';
   margin: 0;
+  scroll-behavior: smooth;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navbar {
+  font-size: 20px;
+}
+.nav-item {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.nav-item:hover {
+  background-color: #FFD36E;
+}
+.dropdown-item:hover {
+  background-color: #FFD36E;
 }
 
 .title-tab {
