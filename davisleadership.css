@@ -1,9 +1,45 @@
-    html{
+  html{
         width: auto;
         height: auto;
     }
 
-    .LDSP {
+  body {
+      font-family: "Open Sans";
+      margin: auto;
+      scroll-behavior: smooth;
+  }
+  
+  .navbar-brand {
+      font-size: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+  
+  .navbar {
+      font-size: 20px;
+  
+  
+  }
+  
+  .nav-item {
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+  
+  }
+  
+  .nav-item:hover {
+      background-color: #FFD36E;
+  
+  }
+  
+  .dropdown-item:hover {
+      background-color: #FFD36E;
+  }
+  
+
+  .LDSP {
         position: relative;
         margin-left: 0%;
         /* right: 57.07%; */
@@ -21,6 +57,7 @@
         padding: 2% 12%;
         width: 20%;
         background-color: #FFD36E;
+        box-sizing: unset;
     }
 
     .davis_leadership {
