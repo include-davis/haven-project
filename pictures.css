@@ -96,8 +96,7 @@ h2 {
     width: 29.9em;
 }
 
-.carousel-inner>img {
-
+.item>img {
     max-height: 23em;
 }
 
@@ -111,7 +110,7 @@ p {
         width: 46em;
     }
 
-    .carousel-inner>img {
+    .item>img {
         height: 26em; 
     }
 }
