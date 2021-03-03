@@ -63,7 +63,7 @@ body {
   border-radius: 20px;
   border-width: thick;
   max-width: 1070px;
-  width: 70%;
+  width: 78%;
   padding: 25px;
 }
 
@@ -300,16 +300,19 @@ body {
     flex-wrap: nowrap;
   }
   .event-info h2 {
+    display: block;
+    max-width: 35vw;
     margin: 0;
     font-size: 36px;
   }
   .event-info h3 {
-    margin: 0;
+    margin: 10px 0 0;
     font-size: 22px;
   }
   .event-time {
     flex-direction: column;
     display: block;
+    margin-left: 25px;
   }
   .event-time h3 {
     margin: 0;
@@ -321,7 +324,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 0;
+    margin-right: 25px;
   }
   .date-box h3 {
     font-weight: 400;
@@ -395,12 +398,16 @@ body {
     font-size: 22px;
   }
   .event-info h2 {
+    max-width: min(30vw, 450px);
     margin: 0;
     font-size: 50px;
   }
   .event-info h3 {
-    margin: 0;
+    margin: 20px 0 0;
     font-size: 32px;
+  }
+  .event-item {
+    margin-left: 40px;
   }
   .event-time h3 {
     margin: 0;
@@ -412,7 +419,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 0;
+    margin-right: 40px;
   }
   .date-box h2 {
     position: relative;
