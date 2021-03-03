@@ -1,10 +1,36 @@
 body {
   font-family: 'Open Sans';
+  margin: auto;
 }
 
-a {
+.donate-link {
   text-decoration: none;
   color: #000000;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar {
+  font-size: 20px;
+}
+
+.nav-item {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.nav-item:hover {
+  background-color: #FFD36E;
+}
+
+.dropdown-item:hover {
+  background-color: #FFD36E;
 }
 
 .header {
@@ -25,12 +51,12 @@ a {
   margin: 0;
 }
 
-.container {
+.my-container {
   text-align: center;
   overflow: hidden;
 }
 
-.item {
+.my-item {
   position: relative;
   margin: 15px auto;
   border-style: solid;
@@ -41,9 +67,13 @@ a {
   padding: 25px;
 }
 
-.item p {
+.my-item p {
   font-size: 14px;
   margin: 0;
+}
+
+.my-item h3 {
+  font-weight: 700;
 }
 
 .calendar {
@@ -238,11 +268,11 @@ a {
     height: 75vw;
     margin: 50px auto 15px;
   }
-  .item {
+  .my-item {
     padding: 35px;
     margin: 50px auto;
   }
-  .item p {
+  .my-item p {
     font-size: 18px;
   }
   /* current events */
@@ -357,11 +387,11 @@ a {
     width: calc(70% + 100px);
     margin: 75px auto 15px;
   }
-  .item {
+  .my-item {
     margin: 75px auto;
     padding: 45px;
   }
-  .item p {
+  .my-item p {
     font-size: 22px;
   }
   .event-info h2 {
