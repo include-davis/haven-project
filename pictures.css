@@ -3,6 +3,33 @@
     font-weight: 400;
 }
 
+body {
+    font-family: "Open Sans";
+    margin: auto;
+    scroll-behavior: smooth;
+}
+.navbar-brand {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar {
+    font-size: 20px;
+}
+.nav-item {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.nav-item:hover {
+    background-color: #FFD36E;
+}
+.dropdown-item:hover {
+    background-color: #FFD36E;
+}
+
+
 h1 {
     margin: 3em 0;
     padding-top: .5em;
