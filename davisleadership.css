@@ -1,9 +1,9 @@
-    html{
+  html{
         width: auto;
         height: auto;
     }
 
-    body {
+  body {
       font-family: "Open Sans";
       margin: auto;
       scroll-behavior: smooth;
@@ -27,8 +27,6 @@
       padding-right: 20px;
       padding-bottom: 20px;
   
-  
-  
   }
   
   .nav-item:hover {
@@ -41,7 +39,7 @@
   }
   
 
-    .LDSP {
+  .LDSP {
         position: relative;
         margin-left: 0%;
         /* right: 57.07%; */
@@ -59,6 +57,7 @@
         padding: 2% 12%;
         width: 20%;
         background-color: #FFD36E;
+        box-sizing: unset;
     }
 
     .davis_leadership {
