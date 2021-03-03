@@ -583,3 +583,31 @@ body {
       justify-content: space-between;
     }
   }
+
+  /* nav bar css */
+
+.navbar-brand {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar {
+    font-size: 20px;
+}
+
+.nav-item {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-item:hover {
+    background-color: #FFD36E;
+
+}
+
+.dropdown-item:hover {
+    background-color: #FFD36E;
+}
