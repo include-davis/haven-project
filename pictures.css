@@ -64,30 +64,28 @@ h2 {
     margin: 9em 3em 0;
 }
 
-.carousel-control.left{
+.carousel-control-prev{
     background-image: none;
     color: black;
     background-color: #FFD36E;
     height: 3em;
     width: 3em;
     border-radius: 1em;
-    margin-top: 15%;
+    margin-top: 17%;
     opacity: 1;
 }
 
 
-.carousel-control.right{
+.carousel-control-next{
     background-image: none;
     color: black;
     background-color: #FFD36E;
     height: 3em;
     width: 3em;
     border-radius: 1em;
-    margin-top: 15%;
+    margin-top: 17%;
     opacity: 1;
 }
-
-
 
 .carousel-inner {
     display: flex;
@@ -96,8 +94,13 @@ h2 {
     width: 29.9em;
 }
 
-.item>img {
-    max-height: 23em;
+.carousel-item.active {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item>img {
+    height: 23em;
 }
 
 p {
@@ -110,7 +113,7 @@ p {
         width: 46em;
     }
 
-    .item>img {
-        height: 26em; 
+    .carousel-item>img {
+        height: 35em; 
     }
 }
