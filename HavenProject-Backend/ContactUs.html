@@ -1,164 +1,181 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>Contact Us</title>
-        <link href="backend.css" rel="stylesheet" type="text/css" />
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    </head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <body>
-        <div class="contact-container">
-            <section id="navbar">
-                <a id="navbar_n1" href="Haven.html">  
-                    <img src="logo.png" alt="icon" width="50%">    
-                </a>
-    
-                <div class="otherlinks">
-                    <ul>
-                        <li>
-                            <a class ="button">About Us</a>
-                        </li>
-                            <ul class="submenu">
-                                <li>
-                                    <a class = "button" href="#">Founders and Presidents</a>
-                                </li>
-                            </ul>
-                        <li>
-                            <a class = "button">Leadership</a>
-                        </li>
-                            <ul class="submenu">
-                                <li>
-                                    <a class = "button" href="#">Davis</a>
-                                </li>
-                                <li>
-                                    <a class = "button" href="#">NDHS</a>
-                                </li>
-                            </ul>
-                        <li>
-                            <a class = "button">Events</a>
-                        </li>
-                            <ul class="submenu">
-                                <li>
-                                    <a class = "buttton" href="#">Past</a>
-                                </li>
-                                <li>
-                                    <a class = "button" href="#">Current</a>
-                                </li>
-                            </ul>
-                        <li>
-                            <a class = "button" href="#">Pictures</a>
-                        </li>
-                            <ul class="submenu">
-                                 <li>
-                                     <a class = "button" href="#">Videos</a>
-                                 </li>
-                             </ul>
-                        <li>
-                            <a class = "button" href="#">Merch</a>
-                        </li>
-                        <li>
-                            <a class = "button" href="#">Donate</a>
-                        </li>
-                        <li>
-                            <a class = "button" href="#">Contact Us</a>
-                        </li>
-                    </ul>
-                </div> 
-                <a id="navbar_n2" href="shoppingcart.html">
-                    <img src="shoppingcart.png" alt="icon" width="50" height="50">    
-                </a>
-            </section>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="backend.css">
 
-            <div class="page-title">
-              <button class="rectangle">CONTACT US</button>
-            </div>
-
-            <br>
-            <br>
-
-            <div class="fcf-body">
-              <div class="form-header">
-                <p>I would like to send a message to:</p>
-                <div class ="contact-button">
-                    <button id = "DavisBranchButton" >Davis Branch</button>
-                    <button id = "NDHSBranchButton">NDHS Branch</button> 
-                </div>
-              </div>
+    <title>Haven Project</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="icon" width="200">    
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end"  id="navbarNavDropdown">
             
-              <br>
-                <div id="fcf-form">
-                
-                <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+          <ul class="navbar-nav">
+              
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  About Us
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="/aboutus.html">Founders and Leaders</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Leadership
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="/davisleadership.html">Davis</a>
+                  <a class="dropdown-item" href="/ndhsleadership.html">NDHS</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Events
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="/pastevents.html">Past</a>
+                  <a class="dropdown-item" href="/currentevents.html">Current</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Media
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="/pictures.html">Pictures</a>
+                  <a class="dropdown-item" href="/videos.html">Videos</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <!-- fix later when backend adds database -->
+              <a class="nav-link" href="#">Merch </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/donate.html">Donate </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/HavenProject-Backend/contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item" href="/HavenProject-Backend/cart.html">
+                <img src="shoppingcart.png" alt="icon" width="50" height="50">   
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+    <div class="contact-container">
+
+      <div class="page-title">
+        <h5 class="rectangle">CONTACT US</h5>
+      </div>
+      
+      <br>
+      <br>
+
+      <div class="fcf-body">
+        <div class="form-header">
+          <p>I would like to send a message to:</p>
+          <div class ="contact-button">
+              <button id = "DavisBranchButton" >Davis Branch</button>
+              <button id = "NDHSBranchButton">NDHS Branch</button> 
+          </div>
+        </div>
+
+        <br>
+
+        <div id="fcf-form">
         
-                    <div class="fcf-form-group">
-                        <label for="Name" class="fcf-label">Name</label>
-                        <div class="fcf-input-group">
-                            <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-                        </div>
-                    </div>
+        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
 
-                    <div class="fcf-form-group">
-                        <label for="Email" class="fcf-label">Email</label>
-                        <div class="fcf-input-group">
-                            <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-                        </div>
-                    </div>
-
-                    <div class="fcf-form-group">
-                        <label for="Subject" class="fcf-label">Subject</label>
-                        <div class="fcf-input-group">
-                            <input type="text" id="Subject" name="Subject" class="fcf-form-control" required>
-                        </div>
-                    </div>
-
-                    <div class="fcf-form-group">
-                        <label for="Message" class="fcf-label">Message</label>
-                        <div class="fcf-input-group">
-                            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-                        </div>
-                    </div>
-
-                    <br>
-
-                    <div class="fcf-form-group">
-                        <div class="wrapper">
-                            <button type="submit" id="fcf-button" 
-                            class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Submit</button>
-                        </div>
-                    </div>
-
-                </form>
-                
-                <br>
-                
-                <div class = "boxes"> 
-                    <div class = "box1">
-                        <div class="wrapper">
-                            <button class="blue-btn">Davis Branch<br>Contact Info</button>
-                        </div>
-                        <p>Instagram: @thehavenproject_davis</p>
-                        <p>TikTok: @buddythebearthp</p>
-                        <p>thehavenprojectthp@gmail.com</p>
-                    </div>
-
-                    <br>
-
-                    <div class = "box2">
-                        <div class="wrapper">
-                            <button class="purple-btn">NDHS Branch<br>Contact Info</button>
-                        </div>
-                        <br>
-                        <p>Instagram: @thehavenproject_davis</p>
-                        <p>havenprojectndhs@gmail.com</p>
-                        
-                    </div>
+            <div class="fcf-form-group">
+                <label for="Name" class="fcf-label">Name</label>
+                <div class="fcf-input-group">
+                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
                 </div>
-              </div>
-            
             </div>
-        </div>  
-    </body>
+
+            <div class="fcf-form-group">
+                <label for="Email" class="fcf-label">Email</label>
+                <div class="fcf-input-group">
+                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                </div>
+            </div>
+
+            <div class="fcf-form-group">
+                <label for="Subject" class="fcf-label">Subject</label>
+                <div class="fcf-input-group">
+                    <input type="text" id="Subject" name="Subject" class="fcf-form-control" required>
+                </div>
+            </div>
+
+            <div class="fcf-form-group">
+                <label for="Message" class="fcf-label">Message</label>
+                <div class="fcf-input-group">
+                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="fcf-form-group">
+                <div class="wrapper">
+                    <button type="submit" id="fcf-button" 
+                    class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Submit</button>
+                </div>
+            </div>
+
+        </form>
+                
+        <br>
+
+        <div class = "boxes"> 
+          <div class = "box1">
+              <div class="wrapper">
+                  <button class="blue-btn">Davis Branch<br>Contact Info</button>
+              </div>
+              <br>
+              <p>Instagram: @thehavenproject_davis</p>
+              <p>TikTok: @buddythebearthp</p>
+              <p>thehavenprojectthp@gmail.com</p>
+          </div>
+
+          <br>
+
+          <div class = "box2">
+              <div class="wrapper">
+                  <button class="purple-btn">NDHS Branch<br>Contact Info</button>
+              </div>
+              <br>
+              <p>Instagram: @thehavenproject_davis</p>
+              <p>havenprojectndhs@gmail.com</p>
+              
+          </div>
+      </div>
+      
+      </div>
+
+    </div>
+  
+  </body>
 </html>

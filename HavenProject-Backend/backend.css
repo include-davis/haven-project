@@ -257,329 +257,283 @@ div{
 
 /* nav bar */
 body {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   margin: auto;
   scroll-behavior: smooth;
 }
-
-#navbar {
-  background-color: #ffffff;
-  font-size: 1rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 3%;
-}
-
-
-/* #navbar_n1 {
-  padding-top: 45px;
+.navbar-brand {
   font-size: 30px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-
-#navbar_n2 {
-  font-size: 30px;
-  padding-right: 40px;
-  padding-top: 40px;
-  padding-left: 40px;
-} */
-
-.otherlinks {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-  text-decoration: none;
+.navbar {
+  font-size: 20px;
 }
-
-.otherlinks a:hover {
+.nav-item {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.nav-item:hover {
   background-color: #FFD36E;
-  padding-bottom: 45px;
+}
+.dropdown-item:hover {
+  background-color: #FFD36E;
 }
 
-.otherlinks ul {
-  list-style: none;
-  display: flex;
+/* contact us */
+.contact-container {
+  color: #000000;
+  font-family: Open Sans;
 }
 
-.otherlink li {
-  width: 100%;
+.rectangle {
+  width: 45%;
   text-align: center;
-  /* position: relative; */
-}
-
-.otherlinks li:hover .submenu > li {
+  padding: 8px 10px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+  right: 8px;
+  margin-bottom: 25px;
   background-color: #FFD36E;
-  display: block;
-  top: 0px;
 }
 
-.submenu li {
-  display: none;
-  /* position: absolute; */
+.form-header p{
+  text-align: center;
+  font-size: 1.5rem;
 }
 
-.submenu{
+.fcf-body {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  padding: 5% 17%;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.contact-button {
   display: flex;
-  flex-direction: column;
-  /* position: absolute; */
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.button {
-  padding-top: 50px;
-  padding-left: 40x;
-  padding-right: 40px;
-  text-decoration: none;
-  color: black;
+#DavisBranchButton{
+  background: #A4D3FF;
+  border-radius: 10px;
+  border: 1px solid #A4D3FF;
+  font-family: Open Sans;
+  font-size: 1rem;
+  padding: 2%;
 }
 
-  /* contact us page */
-  
-  .contact-container {
-    color: #000000;
-    font-family: Open Sans;
-  }
+#NDHSBranchButton{
+  background: #C69FE3;
+  border-radius: 10px;
+  border: 1px solid #C69FE3;
+  font-family: Open Sans;
+  font-size: 1rem;
+  padding: 2%;
+}
 
-  .form-header p{
-    text-align: center;
-    font-size: 1.5rem;
-  }
-  
-  .rectangle{
-    position: absolute;
-    left: 0;
-    width: 40%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    background: #FFD36E;
-    border: 1px solid #FFD36E;
-    font-size: 1.5rem;
-    font-family: Open Sans;
-    text-align: center;
-  }
+#fcf-form {
+  display:block;
+}
 
-  #fcf-form {
-    display:block;
-  }
-  
-  .fcf-body {
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: left;
-    padding: 5% 17%;
-    border-radius: 10px;
-    max-width: 100%;
-  }
+.fcf-label {
+  font-size: 1.5rem;
+}
 
-  .fcf-label {
-    font-size: 1.5rem;
-  }
-  
-  .fcf-form-group {
-    margin-bottom: 1rem;
-  }
-  
-  .fcf-input-group {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    width: 100%;
-  }
-  
-  .fcf-form-control {
-    display: block;
-    width: 100%;
-    height: calc(1.5em + 0.75rem + 2px);
-    padding: 0.375rem 0.75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #E3E3E3;
-    background-clip: padding-box;
-    border: 1px solid #000000;
-    border-radius: 10px;
-    outline: none;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  }
-  
-  select.fcf-form-control[size], select.fcf-form-control[multiple] {
-    height: auto;
-  }
-  
-  textarea.fcf-form-control {
-    font-family: -apple-system, Arial, sans-serif;
-    height: auto;
-  }
-  
-  label.fcf-label {
-    display: inline-block;
-    margin-bottom: 0.5rem;
-  }
-  
-  .fcf-credit {
-    padding-top: 10px;
-    font-size: 0.9rem;
-    color: #545b62;
-  }
-  
-  .fcf-credit a {
-    color: #545b62;
-    text-decoration: underline;
-  }
-  
+.fcf-form-group {
+  margin-bottom: 1rem;
+}
+
+.fcf-input-group {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+}
+
+.fcf-form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #E3E3E3;
+  background-clip: padding-box;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+select.fcf-form-control[size], select.fcf-form-control[multiple] {
+  height: auto;
+}
+
+textarea.fcf-form-control {
+  font-family: -apple-system, Arial, sans-serif;
+  height: auto;
+}
+
+label.fcf-label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.fcf-credit {
+  padding-top: 10px;
+  font-size: 0.9rem;
+  color: #545b62;
+}
+
+.fcf-credit a {
+  color: #545b62;
+  text-decoration: underline;
+}
+
+.fcf-btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  border-radius: 10px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
   .fcf-btn {
-    display: inline-block;
-    font-weight: 400;
-    color: #212529;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-color: transparent;
-    border: 1px solid transparent;
-    padding: 0.375rem 0.75rem;
-    font-size: 1.5rem;
-    line-height: 1.5;
-    border-radius: 10px;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      transition: none;
   }
-  
-  @media (prefers-reduced-motion: reduce) {
-    .fcf-btn {
-        transition: none;
-    }
-  }
-  
-  .fcf-btn:hover {
-    color: #212529;
-    text-decoration: none;
-  }
-  
-  .fcf-btn:focus, .fcf-btn.focus {
-    outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-  }
-  
-  .fcf-btn-primary {
-    color: black;
-    font-family: Open Sans;
-    background-color: #FFD36E;
-    border-color: #FFD36E;
-    font-size: 1.5rem;
-    padding-left: 2%;
-    padding-right: 2%;
-  }
-  
-  .contact-button {
+}
+
+.fcf-btn:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+.fcf-btn:focus, .fcf-btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.fcf-btn-primary {
+  color: black;
+  font-family: Open Sans;
+  background-color: #FFD36E;
+  border-color: #FFD36E;
+  font-size: 1.5rem;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.boxes{
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+}
+
+.box1{
+  border: 5px solid #A4D3FF;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 5%;
+  font-size: 0.75rem;
+} 
+
+.box1 p{
+  opacity: 0.75;
+}
+
+.box2{
+  border: 5px solid #C69FE3;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 5%;
+  font-size: 0.75rem;
+} 
+
+.box2 p{
+  opacity: 0.75;
+}
+
+.blue-btn {
+  background-color: #A4D3FF;
+  border: 1px solid #A4D3FF;
+  border-radius: 10px;
+  font-family: Open Sans;
+  font-size: 1.5rem;
+  padding: 2%;
+}
+
+.purple-btn {
+  background-color: #C69FE3; 
+  border: 1px solid #C69FE3;
+  border-radius: 10px;
+  font-family: Open Sans;
+  font-size: 1.5rem;
+  padding: 2%;
+}
+
+@media only screen and (min-width: 768px) {
+  .form-header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
-  #DavisBranchButton{
-    /* position: relative;
-    left: 5%;
-    top: 10%; */
-    /* width: 110px;
-    height: 40px; */
-    background: #A4D3FF;
-    border-radius: 10px;
-    border: 1px solid #A4D3FF;
-    font-family: Open Sans;
-    font-size: 1.5rem;
-    padding: 2%;
-  }
-
-  #NDHSBranchButton{
-    background: #C69FE3;
-    border-radius: 10px;
-    border: 1px solid #C69FE3;
-    font-family: Open Sans;
-    font-size: 1.5rem;
-    padding: 2%;
-  }
-  
-  .wrapper {
-    display: flex;
-    justify-content: center;
-  }
-
-  .boxes{
-    display: flex;
-    flex-flow: column wrap;
-  }
-  
-  .box1{
-    border: 5px solid #A4D3FF;
-    box-sizing: border-box;
-    border-radius: 20px;
-    padding: 5%;
-  } 
-  
-  .box2{
-    border: 5px solid #C69FE3;
-    box-sizing: border-box;
-    border-radius: 20px;
-    padding: 5%;
-  } 
-
-  .blue-btn {
-    background-color: #A4D3FF;
-    border: 1px solid #A4D3FF;
-    border-radius: 10px;
-    font-family: Open Sans;
-    font-size: 1.5rem;
-    padding: 2%;
-  }
-
-  .purple-btn {
-    background-color: #C69FE3; 
-    border: 1px solid #C69FE3;
-    border-radius: 10px;
-    font-family: Open Sans;
-    font-size: 1.5rem;
-    padding: 2%;
-    padding-left: 2%;
-  }
-
-  @media only screen and (min-width: 768px) {
-    .form-header {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-    }
-
-    .contact-button {
+  .contact-button {
       flex-basis: 50%;
     }
 
-    .blue-btn {
-      padding: 7%;
-    }
+  .blue-btn {
+  padding: 7%;
+  }
 
-    .purple-btn {
-      padding: 7%;
-    }
+  .purple-btn {
+  padding: 7%;
+  }
 
-    .form-header {
+  .form-header {
       text-align: left;
-    }
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
-  @media only screen and (min-width: 879px) {
-    .boxes{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-    }
+  .boxes {
+      text-align: left;
   }
+}
