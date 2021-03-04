@@ -30,7 +30,7 @@ body {
 
 
 h1 {
-    margin: 3em 0;
+    margin: 4em 0;
     padding-top: .5em;
     font-family: 'roboto';
     font-size: 2.3em;
@@ -91,7 +91,7 @@ h2 {
     display: flex;
     justify-content: center;
     margin: auto;
-    width: 29.9em;
+    width: 25em;
 }
 
 .carousel-item.active {
@@ -100,11 +100,15 @@ h2 {
 }
 
 .carousel-item>img {
-    height: 23em;
+    height: 20em;
 }
 
 p {
     margin: 15em 0;
+}
+
+i {
+    color: black;
 }
 
 
