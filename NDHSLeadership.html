@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>#include</title>
+<title> Haven Project | NDHS Leadership </title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="UTF-8">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
 </head>
 <style>
@@ -85,7 +90,7 @@ body{
   padding-right: 5%;
   padding-left: 5%;
 
-  margin-left: 10%;
+  margin-left: 15%;
   margin-right: 10%;
   margin-top: -80px;
   margin-bottom: 0%;
@@ -119,6 +124,27 @@ body{
   width: 30%;
   height: 20%;
 }
+.navbar-brand {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar {
+    font-size: 20px;
+}
+.nav-item {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.nav-item:hover {
+    background-color: #FFD36E;
+}
+.dropdown-item:hover {
+    background-color: #FFD36E;
+}
+
 
 @media(max-width: 375px){
   .NDHSLeadership{
@@ -131,12 +157,15 @@ body{
     width:60%;
     margin-left: 20%;
     margin-right: 20%;
+    padding-top: 5%;
   }
   .NDHSLeadershipParagraph{
+    padding-top: 15%;
     margin-top: -40px;
   }
   .NDHSMoreAboutUs{
-    margin-top: -30px;
+    margin-top: -60px;
+    padding-top: 5%;
   }
 
 }
@@ -153,6 +182,7 @@ body{
   .NDHSLeadershipParagraph{
     font-size: 15px;
     margin-top: -40px;
+    height: 15%;
   }
   .NDHSMoreAboutUs{
     font-size: 13px;
@@ -167,7 +197,68 @@ body{
 
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">
+          <img src="assets/logo.png" alt="icon" width="200">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end"  id="navbarNavDropdown">
 
+        <ul class="navbar-nav">
+
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About Us
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="/aboutus.html">Founders and Leaders</a>
+              </div>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Leadership
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="/davisleadership.html">Davis</a>
+                <a class="dropdown-item" href="/ndhsleadership.html">NDHS</a>
+              </div>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Events
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="/pastevents.html">Past</a>
+                <a class="dropdown-item" href="/currentevents.html">Current</a>
+              </div>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Media
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="/pictures.html">Pictures</a>
+                <a class="dropdown-item" href="/videos.html">Videos</a>
+              </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/merch.html">Merch </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/donate.html">Donate </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item" href="/cart.html">
+              <img src="assets/shoppingcart.png" alt="icon" width="50" height="50">
+          </li>
+
+        </ul>
+      </div>
+    </nav>
 
 
 
@@ -189,6 +280,12 @@ We have done many projects and have many planned projects such as the boxes of l
 <div class="NDHSMoreAboutUs">
   <p> More About Us </p>
 </div>
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
 

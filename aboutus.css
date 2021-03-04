@@ -1,0 +1,152 @@
+* {
+  font-family: 'Open Sans';
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans';
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navbar {
+  font-size: 20px;
+}
+.nav-item {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.nav-item:hover {
+  background-color: #FFD36E;
+}
+.dropdown-item:hover {
+  background-color: #FFD36E;
+}
+
+.title-tab {
+  background-color:#FFD36E;
+  height: 2%;
+  width: 40%;
+  position:relative;
+}
+
+.who-label {
+  text-align: center;
+  padding-top: 5%;
+  font-size: 18px;
+}
+
+.for-indiv {
+  float:center;
+  text-align: center;
+  overflow:hidden;
+  border-radius: 20%;
+  position: relative;
+}
+
+.about-us-img {
+  border-radius: 20%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  float:center;
+}
+
+.founders-presidents {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.label-title {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.about {
+  margin-right: 10%;
+  margin-left: 10%;
+  padding-bottom: 2%;
+}
+
+.individuals {
+  padding-bottom: 5%;
+}
+
+.names-headings {
+  text-align: center;
+}
+
+@media only screen and (min-width: 1000px) {
+
+  .title-tab {
+    background-color:#FFD36E;
+    height: 2%;
+    width: 20%;
+    position:relative;
+  }
+
+  .who-label {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 24px;
+  }
+
+  .founders-presidents {
+    margin-right: 24%;
+    margin-left: 24%;
+  }
+
+  .about-us-img {
+    border-radius: 20%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    float:center;
+    margin-right: 20px;
+  }
+
+  .for-indiv {
+    float:left;
+    padding-right: 4%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    float:left;
+    padding-bottom: 2%;
+
+  }
+
+  .label-title {
+    text-align: left;
+    padding-top: 2%;
+    padding-bottom: 3%;
+  }
+
+  .about {
+    margin-right: 23%;
+    margin-left: 23%;
+  }
+
+  .names-headings {
+    text-align: center;
+  }
+
+  .flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2%;
+    flex: 50%;
+    padding-left: 2%;
+  }
+}

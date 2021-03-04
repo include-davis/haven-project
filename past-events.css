@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'open sans';
+    font-weight: 400;
+}
+
+body {
+    font-family: "Open Sans";
+    margin: auto;
+    scroll-behavior: smooth;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar {
+    font-size: 20px;
+
+
+}
+
+.nav-item {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+
+
+}
+
+.nav-item:hover {
+    background-color: #FFD36E;
+
+}
+
+.dropdown-item:hover {
+    background-color: #FFD36E;
+}
+
+
+#past-events {
+    margin: 3em 0;
+    padding-top: .5em;
+    font-family: 'roboto';
+    font-size: 2.3em;
+    background-color: #FFD36E;
+    width: 14.5em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    margin: 7em 8em;
+    padding: 4em;
+    border: .4em solid;
+    border-radius: 3.5em;
+}
+
+.event-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#event1 {
+    border-color: #C69FE3;
+}
+
+#event2 {
+    border-color: #A4D3FF;
+}
+
+.date-box {
+    font-size: 3em;
+    border-radius: 40px;
+
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date-box>h2 {
+    font-size: 70px
+}
+
+h4 {
+    padding-top: 50px;
+    font-size: 35px;
+}
+
+#event1-box {
+    background-color: #C69FE3;
+}
+
+#event2-box {
+    background-color: #A4D3FF;
+}
+
+h2 {
+    font-size: 3em;
+    margin-bottom: .4em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    margin: .3em 0;
+}
+
+p {
+    margin: 5em 1em 0;
+    font-size: 13px;
+}
+
+@media only screen and (min-width: 768px) {
+    p {
+        margin: 2em .5em 0;
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .section {
+        margin: 7em 15em;
+    }
+
+    .event-top {
+        justify-content: space-evenly;
+    }
+
+    .event-title {
+        margin-right: 4em;
+    }
+
+    .title-time {
+        display: flex;
+        align-items: center;
+    }
+
+    p {
+        margin: 2em 2em 0;
+        font-size: 2em;
+    }
+}

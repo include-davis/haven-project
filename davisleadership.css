@@ -1,0 +1,218 @@
+  html{
+        width: auto;
+        height: auto;
+    }
+
+  body {
+      font-family: "Open Sans";
+      margin: auto;
+      scroll-behavior: smooth;
+  }
+  
+  .navbar-brand {
+      font-size: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+  
+  .navbar {
+      font-size: 20px;
+  
+  
+  }
+  
+  .nav-item {
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+  
+  }
+  
+  .nav-item:hover {
+      background-color: #FFD36E;
+  
+  }
+  
+  .dropdown-item:hover {
+      background-color: #FFD36E;
+  }
+  
+
+  .LDSP {
+        position: relative;
+        margin-left: 0%;
+        /* right: 57.07%; */
+        margin-top: 7.11%;
+        /* bottom: 86.82%; */
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        /* align-items: center; */
+        text-align: center;
+        color: #000000;
+        padding: 2% 12%;
+        width: 20%;
+        background-color: #FFD36E;
+        box-sizing: unset;
+    }
+
+    .davis_leadership {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    #DavisLeadership {
+        margin-top: 10%;
+        margin-bottom: -12%;
+        margin-left: 22%;
+        margin-right: 22%;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+
+        color: #000000;
+        background-color: #A4D3FF;;
+        border-radius: 10px;
+        padding: 10px;
+        z-index: 2;
+    }
+
+    #HavenAtDavis{
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        text-align: center; 
+        padding: 10% 5%;
+
+        border: 5px solid #A4D3FF;
+        border-radius: 10px;
+    }
+
+
+      .viewmore{
+        position: relative;
+        margin:auto;
+        margin-top: -10%;
+
+
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+        background: #FFD36E;
+        border: none;
+        padding:10px;
+        border-radius: 20px;
+      }
+
+@media only screen and (min-width:500px) {
+  .viewmore {
+    margin-top: -7%;
+  }
+}
+
+@media only screen and (min-width:768px) {
+
+    body {
+        margin: 0;
+    }
+    
+      .davis_leadership {
+        margin:auto;
+      }
+    
+      .LDSP {
+        position: relative;
+        margin-left: 0%;
+        /* right: 57.07%; */
+        margin-top: 7.11%;
+        /* bottom: 86.82%; */
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        padding: 2% 12%;
+        width: 20%;
+        background-color: #FFD36E;
+    }
+
+
+    #DavisLeadership {
+        margin-bottom: -7%;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 55px;
+        line-height: 75px;
+        text-align: center;
+
+        color: #000000;
+        background-color: #A4D3FF;;
+        border-radius: 10px;
+        padding: 10px;
+        z-index: 2;
+    }
+
+    #HavenAtDavis{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: -7%;
+    
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 33px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #000000;
+
+        border: 5px solid #A4D3FF;
+        border-radius: 10px;
+    }
+
+      .viewmore{
+        margin-bottom: 30%;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 49px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #000000;
+        background: #FFD36E;
+        border: none;
+        padding:2% 5%;
+        border-radius: 20px;
+    }
+
+
+
+  }
