@@ -1,0 +1,533 @@
+body{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.picturecontainer {
+  position: relative;
+  margin-top: 30px;
+}
+.picturecontainer img {
+  display: block;
+  width: 100%;
+}
+.titletext{
+  /*position: relative;*/
+  display: inline-block;
+  font-family: "Open Sans";
+  font-size: 50px;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-align: center;
+
+  padding-top: 10%;
+  padding-bottom: 2%;
+  padding-right: 5%;
+  padding-left: 5%;
+
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: -80px;
+  margin-bottom: 0%;
+
+  width: 70%;
+  height: 10%;
+}
+
+.HavenIntro{
+  /*position: relative;*/
+  display: inline-block;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-align: center;
+
+  padding-top: 5%;
+  padding-bottom: 3%;
+  padding-right: 5%;
+  padding-left: 5%;
+
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: -80px;
+  margin-bottom: 0%;
+
+  width: 70%;
+  height: 10%;
+}
+
+.DavisBranch{
+
+  z-index: 2;
+  position: relative;
+  display: inline-block;
+  font-family: "Open Sans";
+  font-size: 50px;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-align: center;
+
+  background: #A4D3FF;
+  border-radius: 10px;
+
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+
+  width: 40%;
+  height: 10%;
+}
+
+.DavisBranchParagraph{
+  position: relative;
+  display: inline-block;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-align: center;
+
+  border-style: solid;
+  border-width: 5px;
+  border-color: #A4D3FF;
+  border-radius: 10px;
+
+  padding-top: 10%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: -80px;
+  margin-bottom: 0%;
+
+  width: 70%;
+  height: 10%;
+}
+
+.NDHSBranch{
+
+  z-index: 2;
+  position: relative;
+  display: inline-block;
+  font-family: "Open Sans";
+  font-size: 50px;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-align: center;
+
+  background: #C69FE3;
+  border-radius: 10px;
+
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+
+  width: 40%;
+  height: 10%;
+}
+
+.NDHSBranchParagraph{
+  position: relative;
+  display: inline-block;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-align: center;
+
+  border-style: solid;
+  border-width: 5px;
+  border-color: #C69FE3;
+  border-radius: 10px;
+
+  padding-top: 10%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: -80px;
+  margin-bottom: 0%;
+
+  width: 70%;
+  height: 10%;
+}
+
+#button1{
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  background-color: #FFD36E;
+  border-radius: 15px 15px;
+  margin:0 auto;
+  display:block;
+}
+
+#button2
+{
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  background-color: #FFD36E;
+  border-radius: 15px 15px;
+  margin:0 auto;
+  display:block;
+}
+
+#button3
+{
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  background-color: #FFD36E;
+  border-radius: 15px 15px;
+  margin:0 auto;
+  display:block;
+}
+.viewMoreButton1
+{
+  position: relative;
+  bottom: 40px;
+}
+
+.viewMoreButton2
+{
+  position: relative;
+  bottom: 40px;
+}
+
+.spacer
+{
+  padding: 7em;
+}
+
+.boxes
+{
+  display: flex;
+  flex-direction: column;
+  width: 66em;
+  height: 20em;
+  margin: auto;
+}
+
+.rowBox
+{
+  display: flex;
+  flex-direction: row;
+  width: 66em;
+  height: 20em;
+  padding: 7px;
+  
+}
+
+.box
+{
+  display: flex;
+  flex-direction: row;
+  width: 66em;
+  height: 20em;
+  border: 7px solid #FFD36E;
+ 
+}
+
+.left
+{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 150px;
+  margin-top: 40px;
+  padding-left: 55px;
+}
+
+.right
+{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  margin-top: 90px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+#box1{
+  /*margin-left: 500px;*/
+  margin-right: 3em;
+}
+
+/*#box2{
+}*/
+
+#box3{
+   /*margin-left: 500px;*/
+   margin-top: 3em;
+   margin-right: 3em;
+}
+
+#box4{
+  /*margin-left: 700px;
+  margin-top: -300px;*/
+  margin-top: 3em;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navbar {
+  font-size: 20px;
+}
+.nav-item {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.nav-item:hover {
+    background-color: #FFD36E;
+}
+.dropdown-item:hover {
+    background-color: #FFD36E;
+}
+
+@media(max-width: 375px){
+  .DavisBranch{
+    font-size: 22px;
+    width:60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 5%;
+  }
+  .DavisBranchParagraph{
+    padding-top: 15%;
+    margin-top: -40px;
+  }
+  .NDHSBranch{
+    font-size: 22px;
+    width:60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 5%;
+  }
+  .NDHSBranchParagraph{
+    padding-top: 15%;
+    margin-top: -40px;
+  }
+  .viewMoreButton{
+    margin-top: -40px;
+    padding-top: 5%;
+  }
+  .HavenIntro{
+    padding-top: 15%;
+    margin-top: -40px;
+    padding-bottom: 15%;
+  }
+  .titletext{
+    padding-top: 15%;
+    margin-top: -40px;
+  }
+
+}
+@media(max-width: 768px){
+  .DavisBranch{
+    font-size: 25px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .DavisBranchParagraph{
+    font-size: 18px;
+    margin-top: -40px;
+    height: 15%;
+  }
+  .NDHSBranch{
+    font-size: 25px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .NDHSBranchParagraph{
+    font-size: 18px;
+    margin-top: -40px;
+    height: 15%;
+  }
+  .viewMoreButton{
+    font-size: 10px;
+    margin-top: -50px;
+  }
+  .HavenIntro{
+    padding-top: 5%;
+    font-size: 18px;
+    margin-top: -40px;
+    height: 15%;
+  }
+  .titletext{
+    font-size: 28px;
+    margin-top: -40px;
+    padding-top: 10%;
+    height: 15%;
+  }
+
+  #button1{
+    font-size: 15px;
+  }
+
+  #button2
+  {
+    font-size: 12px;
+  }
+
+  #button3
+  {
+    font-size: 12px;
+  }
+  .viewMoreButton1
+  {
+    position: relative;
+    bottom: 20px;
+  }
+
+  .viewMoreButton2
+  {
+    position: relative;
+    bottom: 20px;
+  }
+
+  .spacer
+  {
+    padding: 3em;
+  }
+  .boxes
+  {
+    width: 18em;
+    height: 6em;
+  }
+
+  .rowBox
+  {
+    width: 18em;
+    height: 6em;
+    padding: 4px;
+  }
+
+  .box
+  {
+    width: 18em;
+    height: 6em;
+    border: 4px solid #FFD36E;
+  }
+
+  .left
+  {
+    font-size: 40px;
+    padding: 10px;
+    margin-top: 0px;
+  }
+
+  .right
+  {
+    font-size: 10px;
+    margin-top: 10px;
+    padding: 6px;
+  }
+
+  #box1{
+    margin-right: 0.5em;
+  }
+
+  /*#box2{
+
+  }*/
+
+  #box3{
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+  }
+
+  #box4{
+    margin-top: 0.5em;
+  }
+  }
+
+
+@media(max-width: 368px){
+  .titletext{
+    font-size: 25px;
+    padding-top: 15%;
+  }
+  .HavenIntro
+  {
+    padding-top: 10%;
+  }
+  .boxes
+  {
+    width: 12em;
+    height: 4em;
+  }
+
+  .rowBox
+  {
+    width: 12em;
+    height: 4em;
+    padding: 4px;
+    
+  }
+
+  .box
+  {
+    width: 12em;
+    height: 4em;
+    border: 3px solid #FFD36E;
+  }
+
+  .left
+  {
+    font-size: 30px;
+    padding: 5px;
+    margin-top: 0px;
+  }
+
+  .right
+  {
+    font-size: 7px;
+    margin-top: 10px;
+    padding: 3px;
+  }
+
+  #box1{
+    margin-right: 0.25em;
+  }
+
+  /*#box2{
+
+  }*/
+
+  #box3{
+    margin-top: 0.25em;
+    margin-right: 0.25em;
+  }
+
+  #box4{
+    margin-top: 0.25em;
+  }
+}

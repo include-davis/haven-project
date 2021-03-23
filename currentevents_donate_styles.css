@@ -1,10 +1,36 @@
 body {
   font-family: 'Open Sans';
+  margin: auto;
 }
 
-a {
+.donate-link {
   text-decoration: none;
   color: #000000;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar {
+  font-size: 20px;
+}
+
+.nav-item {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.nav-item:hover {
+  background-color: #FFD36E;
+}
+
+.dropdown-item:hover {
+  background-color: #FFD36E;
 }
 
 .header {
@@ -25,25 +51,29 @@ a {
   margin: 0;
 }
 
-.container {
+.my-container {
   text-align: center;
   overflow: hidden;
 }
 
-.item {
+.my-item {
   position: relative;
   margin: 15px auto;
   border-style: solid;
   border-radius: 20px;
   border-width: thick;
   max-width: 1070px;
-  width: 70%;
+  width: 78%;
   padding: 25px;
 }
 
-.item p {
+.my-item p {
   font-size: 14px;
   margin: 0;
+}
+
+.my-item h3 {
+  font-weight: 700;
 }
 
 .calendar {
@@ -238,11 +268,11 @@ a {
     height: 75vw;
     margin: 50px auto 15px;
   }
-  .item {
+  .my-item {
     padding: 35px;
     margin: 50px auto;
   }
-  .item p {
+  .my-item p {
     font-size: 18px;
   }
   /* current events */
@@ -270,16 +300,19 @@ a {
     flex-wrap: nowrap;
   }
   .event-info h2 {
+    display: block;
+    max-width: 35vw;
     margin: 0;
     font-size: 36px;
   }
   .event-info h3 {
-    margin: 0;
+    margin: 10px 0 0;
     font-size: 22px;
   }
   .event-time {
     flex-direction: column;
     display: block;
+    margin-left: 25px;
   }
   .event-time h3 {
     margin: 0;
@@ -291,7 +324,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 0;
+    margin-right: 25px;
   }
   .date-box h3 {
     font-weight: 400;
@@ -357,20 +390,24 @@ a {
     width: calc(70% + 100px);
     margin: 75px auto 15px;
   }
-  .item {
+  .my-item {
     margin: 75px auto;
     padding: 45px;
   }
-  .item p {
+  .my-item p {
     font-size: 22px;
   }
   .event-info h2 {
+    max-width: min(30vw, 450px);
     margin: 0;
     font-size: 50px;
   }
   .event-info h3 {
-    margin: 0;
+    margin: 20px 0 0;
     font-size: 32px;
+  }
+  .event-item {
+    margin-left: 40px;
   }
   .event-time h3 {
     margin: 0;
@@ -382,7 +419,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 0;
+    margin-right: 40px;
   }
   .date-box h2 {
     position: relative;
