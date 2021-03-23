@@ -14,8 +14,8 @@
       <h1>Thank you for your recent purchase!</h1>
       <p>Please complete your payment through PayPal or Venmo</p>
     </div>
-    <p><hr />Items: </p>
-    <p>Total: </p>
+    <!-- <p><hr />Items: </p>
+    <p>Total: </p> -->
   </div>
 </body>
 </html>
