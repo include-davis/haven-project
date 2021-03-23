@@ -8,13 +8,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Navbar.css">
-    <title>Haven Project-cart</title>
+    <title>Haven Project | Cart</title>
   </head>
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#">
-          <img src="assets/logo.png" alt="icon" width="200">    
+          <img src="/assets/logo.png" alt="icon" width="200">    
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -75,42 +75,65 @@
       </div>
     </nav>
 
-    <div class = "merch">
-      <div class = "payment_form"></div>
+    <div class = "container-1">
 
-      <div class = "rectangle_117"></div>
-      <p class = "cartLabel">CART</p>
-
-      <div class = "venmo_icon">
-        <a href = "https://venmo.com/"><img src = "../assets/venmo.png" alt = "venmo"></a>
+      <div class = "title">
+        <div class = "rectangleFrame">CART</div>
       </div>
+      
 
-      <div class = "paypal_icon">
-        <a href = "https://www.paypal.com/us/home"><img src = "../assets/paypal.png" alt = "paypal"></a>
+      <div class = "payment_form_body">
+
+        <div class = "cart-yellow-box">
+          <div class = "yellow-box">
+
+            <div class="payment-form-header">
+              <p>Your Information</p>
+            </div>
+
+            <div id = "cart-form">
+              <form id = "cart-form-id" method="post" action="payment-form-process.php" class = "cart-form-class">
+
+              <div class = "cart-form-group">
+                <label for="fname" class="cart-label">Name<span style="color:red">*</span></label></label> 
+
+                <input type="text" id="fname" name="fname" class="cart-form-control fname-box" placeholder="First Name" required>
+                <input type="text" id="lname" name="lname" class="cart-form-control lname-box" placeholder="Last Name" required>
+              </div>
+
+              <div class = "cart-form-group">
+                <label for="Email" class="cart-label">Email<span style="color:red">*</span></label></label>
+                
+                <input type="email" id="Email" name="Email" class="cart-form-control email-box" required>
+              </div>
+            
+              <div class = "cart-form-group">
+                <label for="Phone" class="cart-label">Phone</label>
+
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" class="phone-box cart-form-control">
+              </div>
+
+              <button type="submit" class="submit-form submit-button" value="Submit">Submit</button>
+            </form>
+
+            <div class = "total_pay_box">
+              <div class = "total_box">
+                <p>TOTAL: $0.00</p>
+              </div>
+              <div class = "pay_box">
+                <p>Please Pay $0.00 to </p>
+              </div>
+
+              <div class = "icons">
+                <a href = "https://venmo.com/"> <img src = "../assets/venmo.png" alt = "venmo" class = "venmo_icon"></a>
+                <a href = "https://www.paypal.com/us/home"> <img src = "../assets/paypal.png" alt = "paypal" class = "paypal_icon"></a>
+              </div>
+            </div>
+
+          </div>
+          </div>
       </div>
-
-      <h3 class="payment-form-header">Your Information</h3>
-
-      <p class = "total">TOTAL: $0.00</p>
-      <p class = "pay">Please Pay $0.00 to </p>
-        
-      <form method="post" action="payment-form-process.php">
-
-        <label for="fname" class="label-name fontLabel">Name<span style="color:red">*</span></label></label> 
-        <input type="text" id="fname" name="fname" class="fname-box inputBackground" placeholder="First Name" required>
-        <input type="text" id="lname" name="lname" class="lname-box inputBackground" placeholder="Last Name" required>
-
-        <label for="Email" class="label-email fontLabel">Email<span style="color:red">*</span></label></label>
-        <input type="email" id="Email" name="Email" class="email-box inputBackground" required>
-
-        <label for="Phone" class="label-phone fontLabel">Phone</label>
-        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" class="phone-box inputBackground">
-
-        <div class = "submit-box">
-          <button type="submit" class="submit-form submit-button" value="Submit" style="font-size: 24px">Submit</button>
-        </div>
-      </form>
-    </div>
+    </div>    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

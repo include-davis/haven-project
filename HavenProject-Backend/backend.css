@@ -1,265 +1,259 @@
-div{
-  display: block;
-}
-
-.merch{
-  position: relative;
-  width: 1440px;
-  height: 1581px;
-
-  background: #FFFFFF;  
-}
-
-.rectangle_117{
-  position: absolute;
-  width: 567px;
-  height: 89px;
-  left: 0px;
-  top: 312px;
-
-  background: #FFD36E;
-}
-
-.cartLabel{
-  position: absolute;
-  width: 88px;
-  height: 49px;
-  left: 230px;
-  top: 297px;
-
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 49px;
-
-  color: #000000;
-}
-
-.payment_form{
-  position: absolute;
-  width: 566px;
-  height: 576px;
-  left: 731px;
-  top: 530px;
-
-  background: #FFFFFF;
-  border: 5px solid #FFD36E;
-  box-sizing: border-box;
-  border-radius: 20px;
-}
-
-.fontLabel{
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 33px;
+.container-1{
   display: flex;
-  align-items: center;
+  justify-content: center;
+}
+  
+.rectangleFrame{
+  position: absolute;
+  left: 0;
+  width: 40%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background: #FFD36E;
+  border: 1px solid #FFD36E;
 
-  color: #000000;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
-.inputBackground{
-  background: #E2E2E2;
-  border: 1px solid #000000;
-  box-sizing: border-box;
+.payment_form_body{
+  margin-top: 120%;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  padding: 5% 14%;
   border-radius: 10px;
+  max-width: 100%;
 }
 
+.cart-label{
+  font-size: 1rem;
+}
+  
 .fname-box{
-  position: absolute;
-  width: 189px;
-  height: 40px;
-  left: 860px;
-  top: 630px;
+  margin-top: -12%;
 }
-
-.fname-box::placeholder{
-  position: absolute;
-  width: 182px;
-  height: 39px;
-  left: 867px;
-  top: 557px;
-}
-
+  
 .lname-box{
-  position: absolute;
-  width: 189px;
-  height: 40px;
-  left: 1066px;
-  top: 630px;
+  margin-top: -1%;
 }
-
+  
 ::placeholder{
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 33px;
+  font-size: 13px;
+  line-height: 18px;
   display: flex;
   align-items: center;
-
+  
   color: #A3A3A3;
 }
-
-.lname-box::placeholder{
-  position: absolute;
-  width: 182px;
-  height: 39px;
-  left: 1073px;
-  top: 557px;
-}
-
-.label-name{
-  position: absolute;
-  width: 92px;
-  height: 40px;
-  left: 768px;
-  top: 630px;
-}
-
-.label-email{
-  position: absolute;
-  width: 92px;
-  height: 41px;
-  left: 768px;
-  top: 696px;
-}
-
+  
 .email-box{
-  position: absolute;
-  width: 394px;
-  height: 41px;
-  left: 861px;
-  top: 696px;
+  margin-top: -13%;
 }
 
-.label-phone{
-  position: absolute;
-  width: 92px;
-  height: 40px;
-  left: 768px;
-  top: 761px;
-}
-
+  
 .phone-box{
-  position: absolute;
-  width: 188px;
-  height: 40px;
-  left: 861px;
-  top: 761px;
+  margin-top: -13%; 
 }
-
-.phone-box::placeholder{
-  position: absolute;
-  width: 188px;
-  height: 40px;
-  left: 870px;
-  top: 687px;
-}
-
-.payment-form-header{
-  position: absolute;
-  width: 317px;
-  height: 24px;
-  left: 768px;
-  top: 533px;
-
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 49px;
-  display: flex;
+  
+.payment-form-header p{
+  font-size: x-large;
   align-items: center;
-
-  color: #000000;
-}
-
-.submit-box{
-  position: absolute;
-  width: 128px;
-  height: 55px;
-  left: 771px;
-  top: 828px;
+  width: max-content;
+  margin-bottom: 2.2%;
 }
 
 .submit-form{
-  position: absolute;
-  width: 128px;
-  height: 55px;
-  left: 771px;
-  top: 828px;
-  
+  padding: 2%;
   background: #FFD36E;
   border-radius: 20px;
   border: none;
+  width: 30%;
 }
-
-.submit-button{
-  position: absolute;
-  left: 9.04%;
-  right: 6.78%;
-  top: 34.55%;
-  bottom: 34.55%;
-}
-
+  
 .venmo_icon{
-  position: absolute;
-  width: 55px;
-  height: 55px;
-  left: 1030px;
-  top: 985px;
+  width: 30%;
+  margin-left: 30%;
+  margin-bottom: -44%;
 }
-
+ 
 .paypal_icon{
-  position: absolute;
-  width: 68.33px;
-  height: 54.66px;
-  left: 1130.41px;
-  top: 985px;
-  border-radius: 5px;
+  width: 30%;
+  margin-left: 73%;
 }
 
-.total{
-  position: absolute;
-  width: 364px;
-  height: 49px;
-  left: 768px;
-  top: 890px;
-
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 49px;
-
-  color: #000000;
+.icons{
+  margin-left: 60%;
+  margin-top: -26%;
 }
 
-.pay{
-  position: absolute;
-  width: 335px;
-  height: 33px;
-  left: 768px;
-  top: 970px;
+.total_box{
+  line-height: 18px;
+  margin-top: 7%;
+}
 
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 33px;
+.pay_box{
+  line-height: 18px
+}
 
-  color: #000000;
+.total_pay_box{
+  display: flex;
+  flex-flow: column;
+}
+
+#cart-form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cart-form-group{
+  margin-bottom: 0.5rem;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.cart-form-control{
+  display: block;
+  width: 100%;
+  height: calc(1em + 0.15rem + 2px);
+  padding: 0.35rem 0.6rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #E3E3E3;
+  background-clip: padding-box;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-left: 30%;
+}
+
+.cart-yellow-box{
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.yellow-box{
+  background: #FFFFFF;
+  border: 8px solid #FFD36E;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 5%;
+}
+
+@media only screen and (min-width: 500px) {
+  .payment-form-header{
+    margin-top: -1%;
+  }
+
+  .fname-box{
+    margin-top: -9%;
+    margin-left: 23%;
+  }
+
+  .lname-box{
+    margin-left: 23%;
+  }
+
+  .email-box{
+    margin-top: -9%;
+    margin-left: 23%;
+  }
+
+  .phone-box{
+    margin-top: -9%; 
+    margin-left: 23%;
+  }
+  
+  .pay_box{
+    margin-bottom: 4%;
+  }
+
+  .paypal_icon{
+    margin-left: 58%;
+  }
+
+  .venmo_icon{
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #cart-form{
+    width: 400px;
+    flex-wrap: wrap;
+  }
+
+  .total_box{
+    font-size: 25px;
+    line-height: 45px;
+  }
+
+  .pay_box{
+    font-size: 20px;
+    line-height: 33px;
+  }
+
+  .fname-box{
+    margin-top: -7%;
+    margin-right: 40%;
+  }
+
+  .lname-box{
+    margin-top: -7%;
+    margin-left: 64%;
+  }
+
+  .email-box{
+    margin-top: -7%;
+  }
+
+  .phone-box{
+    margin-top: -7.5%; 
+  }
+
+  .cart-form-control{
+    height: calc(1.2em + 0.15rem + 2px);
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .container-1{
+    justify-content: flex-end;
+  }
+
+  .payment_form_body{
+    margin-top: auto;
+    margin-bottom: -58%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container-1{
+    justify-content: flex-end;
+  }
+
+  .payment_form_body{
+    margin-top: auto;
+    margin-bottom: -50%;
+  }
 }
 
 /* nav bar */
 body {
-  font-family: Open Sans;
+  font-family: Open Sans !important;
   margin: auto;
   scroll-behavior: smooth;
+  width: 100%;
 }
 
 #navbar {
@@ -583,31 +577,3 @@ body {
       justify-content: space-between;
     }
   }
-
-  /* nav bar css */
-
-.navbar-brand {
-    font-size: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.navbar {
-    font-size: 20px;
-}
-
-.nav-item {
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-}
-
-.nav-item:hover {
-    background-color: #FFD36E;
-
-}
-
-.dropdown-item:hover {
-    background-color: #FFD36E;
-}

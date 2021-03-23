@@ -68,7 +68,7 @@
   }
 
   if (mail($email_to, $subject, $message, $headers)){
-    echo "<hr />success\n";
+    echo "<hr />Thank you for your purchase, please check out your email\n";
   } else {
     echo "<hr />email not sent\n";
   }
